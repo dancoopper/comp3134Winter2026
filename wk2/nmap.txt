@@ -1,0 +1,55 @@
+root@comp3134-Winter2026:~# nmap mit.edu
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 21:59 UTC
+Nmap scan report for mit.edu (184.25.77.54)
+Host is up (0.0026s latency).
+Other addresses for mit.edu (not scanned): 2600:140a:5000:c85::255e 2600:140a:5000:c8b::255e
+rDNS record for 184.25.77.54: a184-25-77-54.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.66 seconds
+
+===========================================================================================================================
+
+root@comp3134-Winter2026:~# nmap -p 80 mit.edu
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:02 UTC
+Nmap scan report for mit.edu (184.25.77.54)
+Host is up (0.0030s latency).
+Other addresses for mit.edu (not scanned): 2600:140a:5000:c8b::255e 2600:140a:5000:c85::255e
+rDNS record for 184.25.77.54: a184-25-77-54.deploy.static.akamaitechnologies.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+==============================================================================================================================
+
+root@comp3134-Winter2026:~# nmap -p 1-81 mit.edu
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:03 UTC
+Nmap scan report for mit.edu (184.25.77.54)
+Host is up (0.0026s latency).
+Other addresses for mit.edu (not scanned): 2600:140a:5000:c8b::255e 2600:140a:5000:c85::255e
+rDNS record for 184.25.77.54: a184-25-77-54.deploy.static.akamaitechnologies.com
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds
+
+============================================================================================================================
+
+root@comp3134-Winter2026:~# nmap -F mit.edu
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:03 UTC
+Nmap scan report for mit.edu (184.25.77.54)
+Host is up (0.0031s latency).
+Other addresses for mit.edu (not scanned): 2600:140a:5000:c85::255e 2600:140a:5000:c8b::255e
+rDNS record for 184.25.77.54: a184-25-77-54.deploy.static.akamaitechnologies.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.79 seconds

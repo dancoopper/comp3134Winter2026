@@ -1,0 +1,49 @@
+
+IP:	142.250.68.196
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Google LLC
+
+===================================================================================================
+
+IP:	216.150.1.193
+ Country:	 United States of America
+ State:	California
+ City:	Walnut
+ Latitude:	34.0205
+ Longitude:	-117.8655
+ ISP:	Vercel Inc
+
+=====================================================================================================
+
+IP:	13.33.252.47
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Amazon.com Inc.
+
+========================================================================================================
+
+IP:	104.18.41.34
+ Country:	 United States of America
+ State:	California
+ City:	San Francisco
+ Latitude:	37.7749
+ Longitude:	-122.4194
+ ISP:	CloudFlare Inc.
+
+============================================================================================================
+
+IP:	13.249.165.75
+ Country:	 Japan
+ State:	Osaka
+ City:	Osaka
+ Latitude:	34.6942
+ Longitude:	135.5022
+ ISP:	Amazon.com Inc.
+
