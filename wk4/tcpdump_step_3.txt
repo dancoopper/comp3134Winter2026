@@ -1,0 +1,26 @@
+tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:16:08.858606 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 1035874048:1035874236, ack 3266207181, win 513, length 188
+E....q@.@.s&.n..F.%(...!=./...].P....B..?...K.....):/?gN...  .Q5SQ$.j.i.. G..7u.... ..v.i......e.)
+pE..]..GBtO?4.....
+...+.....c..z.R`.d..........    ........C..A.#K....]..(..snI...r.....[E....zj..uC0.8    .......C......2.v...........
+21:16:08.879537 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 188, win 254, length 36
+E(.L..@.s.s.F.%(.n...!....].=./.P.......I..~...>PE.V.V..e.I...',....4Rif/.`\
+21:16:08.879738 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 188:224, ack 37, win 513, length 36
+E..L.r@.@.s..n..F.%(...!=./...].P.........U..E..F.%.    \...n..Y.&HT..#.....8..
+21:16:08.910802 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 224, win 254, length 36
+E(.L..@.s.s
+F.%(.n...!....].=./.P.......J......|..,TS....!d.&v..o...n....8.u
+21:16:08.911250 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 224:260, ack 73, win 513, length 36
+E..L.s@.@.s..n..F.%(...!=./...^.P........V....9.K...:....k..r..dD...c...`..E
+21:16:08.942739 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 260, win 254, length 36
+E(.L..@.s.s     F.%(.n...!....^.=.0.P.............'.....s.?.@...U..Lx.$)ue..a...
+21:16:08.942912 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 260:296, ack 109, win 513, length 36
+E..L.t@.@.s..n..F.%(...!=.0...^9P.......sA..bD..[....=+..N.\z.u.T..u...]sQNn
+^C21:16:08.957490 IP comp3134-Winter2026.55887 > 67.207.67.2.domain: 25426+ [1au] PTR? 40.37.24.70.in-addr.arpa. (53)
+E..Q....@....n..C.C..O.5.=.KcR...........40.37.24.70.in-addr.arpa.......)........
+
+8 packets captured
+229 packets received by filter
+155 packets dropped by kernel

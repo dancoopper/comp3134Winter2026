@@ -1,0 +1,85 @@
+tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+21:17:09.645202 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 1035895736:1035895892, ack 3266225289, win 513, length 156
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4510  ......&6......E.
+        0x0010:  00c4 f873 4000 4006 7144 8f6e d5bd 4618  ...s@.@.qD.n..F.
+        0x0020:  2528 0016 e521 3dbe 83b8 c2ae a489 5018  %(...!=.......P.
+        0x0030:  0201 d122 0000 6b23 2163 bcac ddfe 5be6  ..."..k#!c....[.
+        0x0040:  eb6a 93fd 8af4 6fc2 568a 7ddf e353 9a63  .j....o.V.}..S.c
+        0x0050:  34f1 49e5 5872 196a 82a3 9c65 2a55 7161  4.I.Xr.j...e*Uqa
+        0x0060:  b5c7 2748 b5d0 301a 737e bc21 4092 0192  ..'H..0.s~.!@...
+        0x0070:  f039 9f71 9c8c 690c 235f 5eb2 0857 28d6  .9.q..i.#_^..W(.
+        0x0080:  a80f 228a 9f36 d6fb e2c7 1e2d 64fa 3031  .."..6.....-d.01
+        0x0090:  ca9c adf4 347c 82a2 8402 8ae3 1692 a583  ....4|..........
+        0x00a0:  a7de 254b 8d68 b4ee 74de c0d6 9133 77f1  ..%K.h..t....3w.
+        0x00b0:  2b03 46d0 1aea d978 b4e9 8a36 f47d 4f15  +.F....x...6.}O.
+        0x00c0:  76e5 046d 421e c6f6 00d2 d185 a870 4dc6  v..mB........pM.
+        0x00d0:  9dfb                                     ..
+21:17:09.645301 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 156:224, ack 1, win 513, length 68
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4510  ......&6......E.
+        0x0010:  006c f874 4000 4006 719b 8f6e d5bd 4618  .l.t@.@.q..n..F.
+        0x0020:  2528 0016 e521 3dbe 8454 c2ae a489 5018  %(...!=..T....P.
+        0x0030:  0201 d0ca 0000 83b0 c4d1 12d5 0b6c cd7c  .............l.|
+        0x0040:  4b12 a664 1d75 3f2c 0193 29f2 7945 c915  K..d.u?,..).yE..
+        0x0050:  c780 51e2 2be9 797d fb86 4845 42f6 a856  ..Q.+.y}..HEB..V
+        0x0060:  3d62 e774 5c87 1863 b02f f9fd e1b0 e69d  =b.t\..c./......
+        0x0070:  ca83 21cf 3929 7a3f cf40                 ..!.9)z?.@
+21:17:09.650738 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [.], ack 224, win 255, length 0
+        0x0000:  2636 e4e6 bcd1 fe00 0000 0101 0800 4528  &6............E(
+        0x0010:  0028 c613 4000 7306 7128 4618 2528 8f6e  .(..@.s.q(F.%(.n
+        0x0020:  d5bd e521 0016 c2ae a489 3dbe 8498 5010  ...!......=...P.
+        0x0030:  00ff cfa2 0000 0000 0000 0000            ............
+21:17:09.666234 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 224, win 255, length 36
+        0x0000:  2636 e4e6 bcd1 fe00 0000 0101 0800 4528  &6............E(
+        0x0010:  004c c614 4000 7306 7103 4618 2528 8f6e  .L..@.s.q.F.%(.n
+        0x0020:  d5bd e521 0016 c2ae a489 3dbe 8498 5018  ...!......=...P.
+        0x0030:  00ff 6a6f 0000 52b9 7750 7910 b189 0e17  ..jo..R.wPy.....
+        0x0040:  fe53 01c5 9d0f 6f63 89a1 12a0 738e 2404  .S....oc....s.$.
+        0x0050:  5996 063f 8a8b 05bb 31d0                 Y..?....1.
+21:17:09.666444 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 224:260, ack 37, win 513, length 36
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4510  ......&6......E.
+        0x0010:  004c f875 4000 4006 71ba 8f6e d5bd 4618  .L.u@.@.q..n..F.
+        0x0020:  2528 0016 e521 3dbe 8498 c2ae a4ad 5018  %(...!=.......P.
+        0x0030:  0201 d0aa 0000 0ef7 a5e7 b57c 7d6a 4094  ...........|}j@.
+        0x0040:  e3cd ebe1 187f 738b 1e2e 5a80 c17d c988  ......s...Z..}..
+        0x0050:  1919 d100 6c3b 25b7 de3e                 ....l;%..>
+21:17:09.697130 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 260, win 255, length 36
+        0x0000:  2636 e4e6 bcd1 fe00 0000 0101 0800 4528  &6............E(
+        0x0010:  004c c615 4000 7306 7102 4618 2528 8f6e  .L..@.s.q.F.%(.n
+        0x0020:  d5bd e521 0016 c2ae a4ad 3dbe 84bc 5018  ...!......=...P.
+        0x0030:  00ff b9aa 0000 572f cef1 810c b598 bf88  ......W/........
+        0x0040:  98df cb34 1f21 ad3a 2a05 fbba ea5e 47b5  ...4.!.:*....^G.
+        0x0050:  0fba 3b90 49f7 744d 6761                 ..;.I.tMga
+21:17:09.697297 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 260:296, ack 73, win 513, length 36
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4510  ......&6......E.
+        0x0010:  004c f876 4000 4006 71b9 8f6e d5bd 4618  .L.v@.@.q..n..F.
+        0x0020:  2528 0016 e521 3dbe 84bc c2ae a4d1 5018  %(...!=.......P.
+        0x0030:  0201 d0aa 0000 45e0 3be2 712b 4328 be0d  ......E.;.q+C(..
+        0x0040:  daff 05ec ddf2 fc4c 24e7 5a6f 89bf 9b57  .......L$.Zo...W
+        0x0050:  4934 39ac ea94 34ee 4c4f                 I49...4.LO
+21:17:09.729509 IP bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 296, win 255, length 36
+        0x0000:  2636 e4e6 bcd1 fe00 0000 0101 0800 4528  &6............E(
+        0x0010:  004c c616 4000 7306 7101 4618 2528 8f6e  .L..@.s.q.F.%(.n
+        0x0020:  d5bd e521 0016 c2ae a4d1 3dbe 84e0 5018  ...!......=...P.
+        0x0030:  00ff ff54 0000 a007 859a 6822 8b45 81cd  ...T......h".E..
+        0x0040:  7d73 206e 8dea cc13 cf93 26cd 5a48 0d1b  }s.n......&.ZH..
+        0x0050:  4f21 b9fb 6574 c06e b015                 O!..et.n..
+21:17:09.729675 IP comp3134-Winter2026.ssh > bras-base-toroon4524w-grc-33-70-24-37-40.dsl.bell.ca.58657: Flags [P.], seq 296:332, ack 109, win 513, length 36
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4510  ......&6......E.
+        0x0010:  004c f877 4000 4006 71b8 8f6e d5bd 4618  .L.w@.@.q..n..F.
+        0x0020:  2528 0016 e521 3dbe 84e0 c2ae a4f5 5018  %(...!=.......P.
+        0x0030:  0201 d0aa 0000 ea53 5648 c08b 42ab 9e97  .......SVH..B...
+        0x0040:  184f 33e8 6139 3745 e436 f664 9dbc 320f  .O3.a97E.6.d..2.
+        0x0050:  9269 60ff a236 9999 7c56                 .i`..6..|V
+^C21:17:09.741251 IP comp3134-Winter2026.33148 > 67.207.67.2.domain: 645+ [1au] PTR? 40.37.24.70.in-addr.arpa. (53)
+        0x0000:  fe00 0000 0101 2636 e4e6 bcd1 0800 4500  ......&6......E.
+        0x0010:  0051 a8bf 0000 4011 e5df 8f6e d5bd 43cf  .Q....@....n..C.
+        0x0020:  4302 817c 0035 003d ec4b 0285 0100 0001  C..|.5.=.K......
+        0x0030:  0000 0000 0001 0234 3002 3337 0232 3402  .......40.37.24.
+        0x0040:  3730 0769 6e2d 6164 6472 0461 7270 6100  70.in-addr.arpa.
+        0x0050:  000c 0001 0000 2905 c000 0000 0000 00    ......)........
+
+10 packets captured
+188 packets received by filter
+115 packets dropped by kernel
