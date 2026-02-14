@@ -1,0 +1,4 @@
+sudo nano /etc/ssh/sshd_config
+sudo ufw allow 2222/tcp
+sudo service ssh restart
+ssh -p 2222 root@143.110.213.189
