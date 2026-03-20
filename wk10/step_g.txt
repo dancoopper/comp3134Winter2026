@@ -1,0 +1,1 @@
+HTML comments are visible in View Source; converting to PHP comments keeps sensitive info server-side and out of the browser.

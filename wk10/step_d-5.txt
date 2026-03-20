@@ -1,0 +1,3 @@
+I see that we basically did "../"
+
+we see what dir we are in 

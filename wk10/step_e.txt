@@ -1,0 +1,22 @@
+The two main vulnerabilities in directory_traversal_part1.php are path traversal
+and accessing non-existent paths. The following mitigations were applied:
+
+1. Path Traversal (basename())
+   The original script passed the 'q' parameter directly to scandir() with no
+   sanitization, allowing an attacker to supply paths like ../../ or the
+   URL-encoded equivalent %2e%2e%2f to navigate above the web root and list
+   sensitive system directories. Wrapping the input in basename() strips any
+   leading directory components, ensuring only the final segment of the path
+   is used. This prevents the user from escaping the current directory.
+
+2. Non-existent Paths (file_exists())
+   Without validation, passing an invalid path like 'hello' causes scandir()
+   to fail and output a PHP warning that leaks server path information to the
+   user. Adding a file_exists() check before calling scandir() catches this
+   case and displays a controlled error message instead, preventing information
+   disclosure.
+
+BONUS: Blocking Filenames (dot check)
+   Filenames contain a dot (e.g. config.php, .htpasswd). By checking whether
+   the parameter contains a dot and rejecting it, users are prevented from
+   targeting specific files rather than directories, further limiting exposure.

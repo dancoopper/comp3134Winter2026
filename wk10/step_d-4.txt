@@ -1,0 +1,3 @@
+I see that the server is returning the dir "above" the dir that the php file is in.
+
+this tells us that we can navigate to, and return anything on the server. 

