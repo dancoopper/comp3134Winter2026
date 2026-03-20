@@ -1,0 +1,4 @@
+1: Shows definition, URL changes to /browse/<word>
+2: Shows "no results" or similar and site handles it gracefully
+3: No alert pops and site sanitizes/encodes input
+4: No alert and again, safely handled
