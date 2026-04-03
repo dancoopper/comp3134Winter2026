@@ -1,0 +1,3 @@
+strip_tags() is a eraser. It deletes HTML tags entirely (<script> tag becomes empty). It’s risky because it can be bypassed pretty easily by attackers.
+
+htmlspecialchars() is a mask. It turns tags into harmless text (< becomes &lt;). The browser displays the code but refuses to run it.
