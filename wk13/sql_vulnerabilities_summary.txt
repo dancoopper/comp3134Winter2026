@@ -1,0 +1,1 @@
+when I just put ben in the text box I got nothing because of the "AND active = 1". but to get around this I just put "Ben'--" and that worked to show me Ben's row. If I wanted to get all the users I would just have to do somthing like  "Ben' or 1=1" and that is what I did for my last test of this.
