@@ -1,0 +1,13 @@
+<h1>Reflected XSS Demo</h1>
+<form id="f">
+  <input type="text" id="inp">
+  <button type="submit">Submit</button>
+</form>
+<div id="output"></div>
+
+<script>
+  document.getElementById("f").addEventListener("submit", function(e) {
+    e.preventDefault();
+    document.getElementById("output").innerHTML = document.getElementById("inp").value;
+  });
+</script>

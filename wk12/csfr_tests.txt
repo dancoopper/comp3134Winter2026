@@ -1,0 +1,1 @@
+When submitting via csfr_form.php, the request succeeds because the token matches. When submitting via the old csfr.html (no token), the request is blocked. This proves the CSRF token effectively prevents forged requests.

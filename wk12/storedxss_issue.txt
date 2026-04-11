@@ -1,0 +1,1 @@
+The script stored in storedxss.txt is executed directly in the browser without sanitization, allowing an attacker to redirect users or steal data. This is dangerous because the malicious code persists and affects every visitor
